@@ -1,7 +1,7 @@
 osx_image: xcode11.3
 language: swift
 xcode_project: TDDTraining.xcodeproj
-# script: xcodebuild -project MiniWeibo.xcodeproj -scheme "MiniWeibo" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=latest'
+# script: xcodebuild -project MiniWeibo.xcodeproj -scheme "TDDTraining" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=latest'
 xcode_project: TDDTraining.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TDDTrainingTests
 xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone 11
