@@ -9,5 +9,5 @@ before_install:
   - xcodebuild -showsdks
   - brew outdated carthage || brew upgrade carthage
 before_script:
-  - carthage bootstrap
+  - carthage bootstrap --platform iOS
 
